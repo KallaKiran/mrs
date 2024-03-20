@@ -68,7 +68,7 @@ if button:
     st.text("=================precautions==================")
     i = 1
     for p_i in pre[0]:
-        st.text(str(i)+ ": "+ p_i)
+        st.text(str(i)+ ": "+ str(p_i))
         i += 1
     st.text("=================medications==================")
     for m_i in med:
